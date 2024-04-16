@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-->
+    <title>Document</title>
+    <!--css-->
+    <link rel="stylesheet" href="CSS/extends.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="navbar__content max-width mb-0">
+            <a href="/">
+                <img src="assets/tferreira.png" alt="Tiago Ferreira">
+            </a>
+            <ul class="navbar__links">
+                <li><a href="#header">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#project">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+            <div class="navbar__mobile">
+                <img src="assets/menu.svg" alt="menu" class="burguer">
+                <ul class="mobile__links">
+                  <li><a href="#header">Inicio</a></li>
+                  <li><a href="#about">Sobre</a></li>
+                  <li><a href="#skills">Habilidades</a></li>
+                  <li><a href="#project">Projetos</a></li>
+                  <li><a href="#footer">Contato</a></li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--header-->
+    <header id="header" class="max-width">
+        <div class="header__left">
+           <h1>Tiago Ferreira Desenvolvedor Backend</h1>
+           <p>
+            Sou um desenvolvedor backend com experiência em Java, especializado em criar
+             aplicações web escaláveis. Minha paixão é desenvolver soluções tecnológicas
+              que resolvem problemas reais e agregam valor aos usuários.
+          </p>
+          <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+        </div>
+        <div class="header__right">
+            <div class="header__image">
+                <img src="assets/tiagof.jpg" alt="Tiago Ferreira" class="tiago">
+                <img src="assets/abstract.svg" alt="background" class="background">
+            </div>
+        </div>
+    </header>
+
+    <!--Sobre-->
+    <section id="about" class="about max-width">
+        <div class="about__left">
+          <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+          <p>
+            Fique à vontade para entrar em contato e descobrir mais sobre o meu trabalho.
+          </p>
+          <ul>
+            <li>
+              <a href="https://github.com/TiagoFerreirago"><img src="assets/git.png" alt="git" /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tiagoferreira97"><img src="assets/linkedin.png" alt="Linkedin" /></a>
+            </li>
+            <li>
+              <a href="https://tfdeveloper97@gmail.com"><img src="assets/gmail.png" alt="Gmail" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="about__right">
+          <h3 class="tertiary-title mb-m">
+            Desenvolvedor Backend apaixonado por tecnologia e soluções criativas
+          </h3>
+          <p>
+            Olá, eu sou Tiago Ferreira, um desenvolvedor backend apaixonado por
+            tecnologia e soluções criativas. especialista em desenvolvimento Java
+             e afins. Estou há 2 anos estudando e desenvolvendo projetos com Java,
+              seguindo o padrão MVC, arquitetura de design e boas práticas. Atualmente,
+               estou utilizando o Spring Boot, seguindo os princípios da arquitetura RESTful
+                para projetar serviços web.
+          </p>
+          <p>
+            Eu amo o desafio de encontrar soluções inovadoras e criativas para
+            problemas complexos e estou sempre buscando aprender e crescer como
+            profissional.
+          </p>
+        </div>
+      </section>
+
+      <!--skills-->
+      <section id="skills" class="skills">
+        <div class="skills__content max-width">
+          <h2 class="tertiary-title">Minha Caixa de Ferramentas</h2>
+          <p class="description">
+            Descubra as habilidades e ferramentas que domino e que me permitem
+            criar soluções criativas e funcionais para meus clientes.
+          </p>
+          <ul>
+            <li class="skills__item">
+              <div class="image-container">
+                <img src="assets/notebook.png" alt="Desenvolvimento Web"/>
+              </div>
+              <h3>Desenvolvimento Web</h3>
+              <p>
+                Experiência em desenvolvimento backend utilizando o spring boot.
+              </p>
+            </li>
+            <li class="skills__item">
+              <div class="image-container">
+                <img src="assets/configuracao.png" alt="Restful">
+              </div>
+              <h3>APIs RESTful</h3>
+              <p>Habilidade em implementar endpoints
+                 RESTful de forma eficiente e escalável.
+              </p>
+            </li>
+            <li class="skills__item">
+              <div class="image-container">
+                <img src="assets/bancodedados.png" alt="Jpa">
+              </div>
+              <h3>Spring Data JPA</h3>
+              <p>
+                Experiência em Spring Data JPA para gerenciamento eficaz de entidades no banco de dados.
+              </p>
+            </li>
+            <li class="skills__item">
+              <div class="image-container">
+                <img src="assets/files.png" alt="Gerenciamentos de versões" />
+              </div>
+              <h3>Gerenciamentos de versões</h3>
+              <p>
+                Experiência em ferramentas de gerenciamento de versão para
+                controle de projetos.
+              </p>
+            </li>
+          </ul>
+        </div>
+     </section>
+
+     <!-- Projetos -->
+     <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Projetos em Destaque</h2>
+        <p>
+          De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos
+          meus trabalhos mais recentes
+        </p>
+      </div>
+      <ul>
+        <li>
+          <div class="image">
+            <img src="assets/task-manager.png" alt="Gerenciamento de tarefas" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Wiki Game
+            </h3>
+            <p>
+              A aplicação destaca os games mais populares em duas páginas distintas. Na primeira,
+               apresenta uma lista com descrições amplas sobre cada jogo. Ao clicar em "detalhes",
+                os usuários podem explorar sinopses detalhadas, proporcionando uma experiência informativa
+                 e envolvente.
+            </p>
+            <a href="https://github.com/TiagoFerreirago/Gamesridt/tree/main">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/ecommerce.png" alt="ecommerce" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Comércio Eletrônico
+            </h3>
+            <p>
+              O sistema é um comércio eletrônico completo, projetado para facilitar a experiência
+               de compra online. Ele permite aos usuários explorar uma variedade de produtos
+                organizados por categoria, adicionar itens ao carrinho de compras, fazer pedidos
+                 e efetuar pagamentos de forma segura. Além disso, os usuários podem acompanhar o
+                  status de seus pedidos em tempo real. É uma solução abrangente para tornar
+                   a experiência de compra online mais conveniente e eficiente .
+            </p>
+            <a href="https://github.com/TiagoFerreirago/workshop/tree/main">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="assets/delivery.png" alt="delivery" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Jogo de Xadrez!
+            </h3>
+            <p>Todo o sistema de xadrez foi estruturado em camadas,
+               utilizando programação orientada a objetos e seguindo o padrão arquitetural MVC.
+            </p>
+            <a href="https://github.com/TiagoFerreirago/chess-system-java">Leia mais &rarr;</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+        <p class="mb-m">
+          Ficarei feliz em saber mais sobre seus projetos e como podemos
+          trabalhar juntos para torná-los realidade.
+        </p>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">tfdeveloper@gmail.com</span>
+          <span>71 99971-6658</span>
+        </div>
+        <ul class="mb-l">
+          <li>
+            <a href="https://github.com/TiagoFerreirago"><img src="assets/git.png" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/linkedin.png" alt="Linkedin"></a>
+          </li>
+          <li>
+            <a href="https://tjdeveloper97@gmail.com"><img src="assets/gmail.png" alt="Facebook"></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          © 2024 Tiago Ferreira. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!--script-->
+    <script src="scripts/index.js"></script>
+</body>
+</html>
